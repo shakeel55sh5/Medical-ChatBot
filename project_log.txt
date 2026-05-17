@@ -1,0 +1,27 @@
+STEP-BY-STEP PROCESS LOG: MEDICAL AI CHATBOT PROJECT
+
+Step 1: Create the project directory
+Command: mkdir -p medical_chatbot
+
+Step 2: Create the medical knowledge base
+File: medical_chatbot/medical_data.py
+Description: Updated with Pakistani medicine brands (Panadol, Risek, etc.) and profiles for Dr. Shakeel Ahmad, Dr. Shahzad Naseem, and Dr. Sohail Arshad.
+
+Step 3: Create the AI Chatbot logic
+File: medical_chatbot/medical_bot.py
+Description:
+- Used scikit-learn's TfidfVectorizer and RandomForestClassifier.
+- Added logic to recommend a specific doctor based on the predicted disease.
+- Updated the UI to display beautiful descriptions of the recommended doctors.
+
+Step 4: Install Dependencies
+Command: ./my_ai_env/bin/pip install scikit-learn numpy
+Description: Ensured the virtual environment has the required libraries.
+
+Step 5: Verify the Model
+Command: ./my_ai_env/bin/python3 medical_chatbot/medical_bot.py
+Description: Confirmed the bot correctly identifies symptoms and suggests the right doctor and medicine.
+
+Step 6: Documentation
+Files: README.md and project_log.txt
+Description: Created documentation for project overview and process tracking.
